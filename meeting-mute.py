@@ -1,3 +1,11 @@
+"""
+Project inspired by https://learn.adafruit.com/TeamsMuteButton
+
+Their code uses the Arduino IDE.  I utilized their CircuitPython Library.
+
+Project code is here: https://github.com/microsoft/teamsmutebutton
+"""
+
 import usb_hid
 from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
