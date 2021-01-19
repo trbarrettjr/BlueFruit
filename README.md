@@ -11,4 +11,8 @@ Please feel free to copy and use as you wish.
 This program is a keyboard shortcut program that I written to utilize in Zoom and Google Meets.  These programs have a audio and video mute button related to their buttons on the Bluefruit.
 
 ## color-direction.py
-This is an expiramental program that I was testing a theory for future code.  Stand by to learn more.
+This is an expiramental program that I was testing a theory for future code.
+
+Depending on the orientation of the Bluefruit, it would display red or blue neopixels on Bluefruit.
+
+Idea is for task management.  Going to be ordering some new stuff to display status of something and then flip/change orientation of the device to change the printed message on screen.
