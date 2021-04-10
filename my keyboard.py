@@ -18,32 +18,24 @@ button_b_pressed = False
 
 while True:
     if cp.switch:
-        if cp.button_a and not button_a_pressed:
+        if cp.button_a and button_a_pressed is False:
             kbd.send(Keycode.GUI, Keycode.SHIFT, Keycode.A)
-            #print("Toggling Mute Function")
             button_a_pressed = cp.button_a
-        elif not cp.button_a and button_a_pressed:
-            #kbd.send(Keycode.GUI, Keycode.SHIFT, Keycode.A)
-            #print("button a released")
+        elif cp.button_a is False and button_a_pressed is True:
             button_a_pressed = cp.button_a
-        if cp.button_b and not button_b_pressed:
+        if cp.button_b and button_b_pressed is False:
             kbd.send(Keycode.GUI, Keycode.SHIFT, Keycode.V)
-            #print("button b pressed")
             button_b_pressed = cp.button_b
-        elif not cp.button_b and button_b_pressed:
-            #kbd.release_all()
-            #print("button b released")
+        elif cp.button_b is False and button_b_pressed is True:
             button_b_pressed = cp.button_b
     else:
-        if cp.button_a and not button_a_pressed:
+        if cp.button_a and button_a_pressed is False:
             kbd.send(Keycode.GUI, Keycode.D)
             button_a_pressed = cp.button_a
-        elif not cp.button_a and button_a_pressed:
-            #kbd.relase_all()
+        elif cp.button_a if False and button_a_pressed is True:
             button_a_pressed = cp.button_a
-        if cp.button_b and not button_b_pressed:
+        if cp.button_b and button_b_pressed is False:
             kbd.send(Keycode.GUI, Keycode.E)
             button_b_pressed = cp.button_b
-        elif not cp.button_b and button_b_pressed:
-            #kbd.release_all()
+        elif cp.button_b is False and button_b_pressed is True:
             button_b_pressed = cp.button_b
