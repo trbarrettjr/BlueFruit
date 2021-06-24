@@ -10,6 +10,8 @@ Please feel free to copy and use as you wish.
 ## meeting-mute.py
 This program is a keyboard shortcut program that I written to utilize in Zoom and Google Meets.  These programs have a audio and video mute button related to their buttons on the Bluefruit.
 
+These keystrokes given are for a Mac.  You will need to modify your code to match for Windows or Linux.  __Note__: _Zoom & Google Meet can change the keystrokes at anytime.  You have been warned!_
+
 ## color-direction.py
 This is an expiramental program that I was testing a theory for future code.
 
